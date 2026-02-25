@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Cascade and Specificity Example</title>
+    <style>
+        /* Type selector */
+        h1 {
+            color: blue; /* Low specificity */
+        }
+
+        /* Class selector */
+        .highlight {
+            color: green; /* Medium specificity */
+        }
+
+        /* ID selector */
+        #main-title {
+            color: red; /* High specificity */
+        }
+        
+        /* !important rule */
+        h1 {
+            color: purple !important; /* Highest specificity */
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main-title" class="highlight" style="color: orange;">Hello World</h1>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.box {
+    width: 200px;
+    height: 100px;
+}
+.border-box { 
+    background-color: lightyellow; 
+}
+.padding-box { 
+    background-color: lightcoral; 
+}
+.margin-box { 
+    background-color: lightgreen; 
+}
+.box-sizing-box { 
+    background-color: lightgray; 
+}
+.rounded-box { 
+    background-color: lightpink; 
+}
+.circle-box { 
+    background-color: lightblue; 
+}
+.border-shorthand { 
+    background-color: lightcyan; 
+}

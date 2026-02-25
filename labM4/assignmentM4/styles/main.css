@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    background-color: #EDEDED;
+    width: 960px;
+    margin: auto;
+    padding: 0 20px;
+    max-width: 100%;
+}
+
+/* 2. headings type selector */
+h1 {
+    color: blue;
+    border-bottom: 1px solid #929CA4;
+    width: 100%;
+}
+
+/* 3. first letter of first paragraph */
+section p:nth-of-type(1)::first-letter {
+    font-size: 30px;
+}
+
+/* 4. features class */
+.features {
+    color: #CC1C0D;
+    font-weight: bold;
+}
+
+/* 5. multiple ID selector for testimonials */
+#testimonial1, #testimonial2 {
+    font-style: italic;
+    margin-left: 50px;
+}
+
+/* 6. line attribute selector with pseudo-classes */
+a[href]:link {
+    color: #0066CC;
+    text-decoration: none;
+}
+
+/* 7. remove bullets from management team list */
+ul {
+    list-style-type: none;
+}
+
+/* 8. first management team item blue */
+ul li:first-child {
+    color: blue;
+}
+
+/* 9. last management team item red */
+ul li:last-child {
+    color: red;
+}
+
+/* images 100% width */
+img {
+    width: 100%;
+}
+
+/* headings styling */
+h2 {
+    color: blue;
+    border-bottom: 1px solid #929CA4;
+    width: 100%;
+}
+
+a{
+    color: #B3679B;
+}
+
+/* feature layout */
+.features {
+    width: 33%;
+    border: 2px solid #222E50;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: top;
+}
+
+/* features title styling */
+.feature-title {
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+/* first <td> in every table row */
+table tr td:first-child {
+    background-color: #f2f2f2;
+}
+
+/* add padding to All table cells */
+table td {
+    padding: 20px;
+}
+
+h1,h2,h3 {
+    background-color: #EFEFEF;
+}

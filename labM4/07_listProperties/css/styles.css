@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.list-container {
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
